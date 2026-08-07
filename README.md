@@ -106,28 +106,3 @@ National population by year and age group, observed (`obs`) and projected
 
 District code key linking climate projection grids to 2019 administrative
 boundaries.
-
----
-
-## Analytical settings
-
-Warm season (May-October) only. Exposure-response modelled with a natural
-cubic spline of temperature (internal knots at the 50th and 90th percentiles
-of the district-specific distribution) and a lag of 5 days with one internal
-knot at equally spaced values on the log scale. Effects are centred at the
-75th percentile of the district-specific warm-season distribution, and only
-days above that value contribute to the attributable burden; negative
-attributable values are truncated to zero.
-
-Periods are 2010-2014, 2015-2019, 2020-2023 (baseline, 14 years pooled) and
-2024-2029, 2030-2034, 2035-2039 (projection). Uncertainty is propagated with
-1,000 Monte Carlo samples from the multivariate normal distribution of the
-pooled coefficients; reported intervals are 2.5th and 97.5th percentiles of the
-resulting empirical distribution. Costs are converted from KRW to USD at
-1,305.6625 KRW/USD (2023 average).
-
-The four decomposition factors are temperature change (`heat`), population
-ageing (`age`), population size (`pop`) and cost per admission (`cpc`). All
-2^4 = 16 factor states are projected, and Shapley values are computed as the
-weighted average of the marginal contribution of each factor across all
-orderings.
