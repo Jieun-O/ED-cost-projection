@@ -42,7 +42,6 @@ Daily district-level time series, 250 districts x 5,113 days (2010-01-01 to
 | `date` | Date | Calendar date |
 | `tmean` | numeric | Daily mean temperature, ERA5-Land (degrees C) |
 | `shum` | numeric | Daily mean specific humidity, NCEP CFSv2 (kg/kg) |
-| `rhum`, `ahum` | numeric | Relative and absolute humidity (sensitivity analyses) |
 | `holiday` | integer | 1 for public holidays, 0 otherwise |
 | `n_icd_{cause}_{age}` | integer | Daily ED admission counts by cause and age group |
 
