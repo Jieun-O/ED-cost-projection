@@ -23,11 +23,6 @@ and (4) calculation of attributable costs and attributable fractions.
 | `code/03_decomposition.R` | GCM ensemble aggregation and Shapley decomposition into temperature, population ageing, population size and cost per admission | `decomp_*.csv`, decomposition figures |
 | `code/04_attributable.R` | Attributable costs (AC) and attributable fractions (AF), by cause and overall | `af_*.csv`, main projection figures |
 
-Scripts are run in numerical order. `04_attributable.R` uses objects created in
-the first part of `03_decomposition.R` (population data and the merged
-projection output), so `03` must be run at least up to the decomposition step
-before `04`.
-
 ---
 
 ## Data
