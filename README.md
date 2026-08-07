@@ -28,12 +28,6 @@ the first part of `03_decomposition.R` (population data and the merged
 projection output), so `03` must be run at least up to the decomposition step
 before `04`.
 
-## Requirements
-
-R with `dlnm`, `mixmeta`, `gnm`, `splines`, `MASS`, `AER`, `dplyr`,
-`tidyr`, `data.table`, `lubridate`, `readxl`, `writexl`, `stringr`, `ggplot2`,
-`ggh4x`, `gridExtra`, `scales`.
-
 ---
 
 ## Data
