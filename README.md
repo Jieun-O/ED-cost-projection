@@ -4,8 +4,6 @@ Analysis code for the estimation and projection of heat-attributable emergency
 department (ED) admission costs across 250 si-gun-gu districts in South Korea
 (2010-2023), and projections to 2039 under SSP2-4.5 and SSP5-8.5.
 
-The study data are not included due to data access and sharing restrictions.
-
 The workflow covers four steps: (1) two-stage distributed lag non-linear
 modelling of the temperature-admission association, (2) projection of
 attributable admissions and costs under future climate and demographic
@@ -27,7 +25,7 @@ and (4) calculation of attributable costs and attributable fractions.
 
 ## Data
 
-Individual-level National Health Insurance Service (NHIS) claims data are held
+National Health Insurance Service (NHIS) claims data are held
 under a data use agreement and cannot be redistributed, so no example data are
 provided. All scripts assume the derived datasets below in `data/`, and write
 to `output/`. The structures are documented so that the code can be adapted to
