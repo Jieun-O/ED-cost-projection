@@ -30,7 +30,7 @@ before `04`.
 
 ## Requirements
 
-R (>= 4.2) with `dlnm`, `mixmeta`, `gnm`, `splines`, `MASS`, `AER`, `dplyr`,
+R with `dlnm`, `mixmeta`, `gnm`, `splines`, `MASS`, `AER`, `dplyr`,
 `tidyr`, `data.table`, `lubridate`, `readxl`, `writexl`, `stringr`, `ggplot2`,
 `ggh4x`, `gridExtra`, `scales`.
 
