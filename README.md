@@ -61,7 +61,7 @@ centring value and basis boundaries).
 
 Bias-corrected daily mean temperature by district, 2010-2039, one file per SSP
 scenario and per GCM (19 CMIP6 models). Columns: `sgg_h` (district code),
-`date`, `tmean`. `{ssp}` is `245`, `370` or `585`. The GCM list is read from
+`date`, `tmean`. `{ssp}` is `245` or `585`. The GCM list is read from
 the file names in `data/`.
 
 ### 4. `doy_list.RData` (object `doy_list`)
