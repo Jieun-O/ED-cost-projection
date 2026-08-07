@@ -18,7 +18,7 @@ and (4) calculation of attributable costs and attributable fractions.
 |---|---|---|
 | `code/01_twostage.R` | District-specific DLNM (time-stratified case-crossover, conditional quasi-Poisson) and multivariate meta-regression | `meta.xlsx`, `result_gnm.RData` |
 | `code/02_projection.R` | Attributable admissions and costs by district, period, cause, age group and GCM, with 1,000 Monte Carlo simulations | `proj_{ssp}_mod{a}_{b}_dec{a}_{b}.RData` |
-| `code/03_decomposition.R` | GCM ensemble aggregation and Shapley decomposition into temperature, population ageing, population size and cost per admission | `decomp_*.csv`, decomposition figures |
+| `code/03_decomposition.R` | Shapley decomposition into temperature, population ageing, population size and cost per admission | `decomp_*.csv`, decomposition figures |
 | `code/04_attributable.R` | Attributable costs (AC) and attributable fractions (AF), by cause and overall | `af_*.csv`, main projection figures |
 
 ---
